@@ -20,9 +20,9 @@ This is a PyTorch implementation of the PCL paper:
 ### Unsupervised Training:
 Similar as <a href="https://github.com/facebookresearch/moco">MoCo</a>, this implementation only supports multi-gpu, DistributedDataParallel training, which is faster and simpler; single-gpu or DataParallel training is not supported.
 
-To perform unsupervised training of a ResNet-50 model on ImageNet, run:
+To perform unsupervised training of a ResNet-50 model on ImageNet, run: \
 <code>python main_pcl.py \
-  -a resnet50 \
+  -a resnet50 \. 
   --lr 0.03 \
   --batch-size 256 \
   --mlp --cos --aug-plus\	
