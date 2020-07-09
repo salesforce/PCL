@@ -1,5 +1,5 @@
 ## PCL: Prototypical Contrastive Learning of Unsupervised Representations
-<img src="./img/PCL_framework.png">
+<img src="./img/PCL_framework.png" width="200">
 
 This is a PyTorch implementation of the PCL paper:
 <pre>
@@ -8,7 +8,6 @@ This is a PyTorch implementation of the PCL paper:
 	author={Junnan Li and Pan Zhou and Caiming Xiong and Richard Socher and Steven C.H. Hoi},
 	journal={arXiv preprint arXiv:2005.04966},
 	year={2020}
-}
 }</pre>
 
 ### Requirements:
