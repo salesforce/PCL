@@ -1,5 +1,5 @@
 ## PCL: Prototypical Contrastive Learning of Unsupervised Representations
-<img src="./img/PCL_framework.png" width="200">
+<img src="./img/PCL_framework.png" width="600">
 
 This is a PyTorch implementation of the PCL paper:
 <pre>
