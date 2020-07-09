@@ -35,6 +35,7 @@ To perform unsupervised training of a ResNet-50 model on ImageNet using a 4-gpu 
 ### Linear SVM Evaluation on VOC
 To train a linear SVM classifier on VOC dataset, using frozen representations from a pre-trained model, run:
 <pre>python eval_svm_voc.py --pretrained [your pretrained model] \
+  -a resnet50 \ 
   --low-shot (only for low-shot evaluation, otherwise the entire dataset is used)
   [VOC2007 dataset folder]
 </pre>
