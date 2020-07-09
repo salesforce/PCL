@@ -1,4 +1,5 @@
 ## PCL: Prototypical Contrastive Learning of Unsupervised Representations
+## Salesforce Research
 <img src="./img/PCL_framework.png" width="600">
 
 This is a PyTorch implementation of the PCL paper:
@@ -11,6 +12,13 @@ This is a PyTorch implementation of the PCL paper:
 }</pre>
 
 ### Requirements:
+* ImageNet dataset
 * Python ≥ 3.6
 * PyTorch ≥ 1.4
-* <a href="https://github.com/facebookresearch/faiss">faiss-gpu</a>
+* <a href="https://github.com/facebookresearch/faiss">faiss-gpu</a>: pip install faiss-gpu
+* pip install tqdm
+
+### Unsupervised Training:
+Similar as <a href="https://github.com/facebookresearch/moco">MoCo</a>, this implementation only supports multi-gpu, DistributedDataParallel training, which is faster and simpler; single-gpu or DataParallel training is not supported.
+
+
