@@ -22,8 +22,8 @@ Similar as <a href="https://github.com/facebookresearch/moco">MoCo</a>, this imp
 
 To perform unsupervised training of a ResNet-50 model on ImageNet, run: \
 <code>python main_pcl.py \ 
-    -a resnet50 \ 
-    --lr 0.03 \
+  <br> -a resnet50 \ 
+  --lr 0.03 \
   --batch-size 256 \
   --mlp --cos --aug-plus\	
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
