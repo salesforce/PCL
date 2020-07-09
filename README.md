@@ -1,2 +1,1 @@
-# PCL
-PyTorch code for "Prototypical Contrastive Learning of unsupervised representations"
+# PCL: Prototypical Contrastive Learning of Unsupervised Representations
