@@ -40,6 +40,10 @@ To train a linear SVM classifier on VOC dataset, using frozen representations fr
   [VOC2007 dataset folder]
 </pre>
 
+k=1 | k=2 | k=4 | k=8 | k=16
+--- | --- | --- | --- | --- 
+47.9| 59.6| 66.2| 74.5| 78.3
+
 ### Linear Classifier Evaluation on ImageNet
 Requirement: pip install tensorboard_logger \
 To train a logistic regression classifier on ImageNet, using frozen representations from a pre-trained model, run:
