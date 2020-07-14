@@ -41,7 +41,8 @@ To train a linear SVM classifier on VOC dataset, using frozen representations fr
 </pre>
 
 Linear SVM classification result on VOC, using ResNet-50 pretrained with PCL for 200 epochs:\
-| k=1 | k=2 | k=4 | k=8 | k=16 | Full
+
+    | k=1 | k=2 | k=4 | k=8 | k=16 | Full
 --- | --- | --- | --- | --- | --- | ---
 PCL v2| 47.9| 59.6| 66.2| 74.5| 78.3 | 85.4
 
