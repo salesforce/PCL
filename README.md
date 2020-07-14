@@ -53,7 +53,7 @@ Requirement: pip install tensorboard_logger \
 To train a logistic regression classifier on ImageNet, using frozen representations from a pre-trained model, run:
 <pre>python eval_cls_imagenet.py --pretrained [your pretrained model] \
   -a resnet50 \ 
-  --lr 5\
+  --lr 5 \
   --batch-size 256 \
   --id PCL_v2_linear \ 
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
