@@ -18,7 +18,7 @@ This is a PyTorch implementation of the PCL paper:
 * pip install tqdm
 
 ### Unsupervised Training:
-Similar as <a href="https://github.com/facebookresearch/moco">MoCo</a>, this implementation only supports multi-gpu, DistributedDataParallel training, which is faster and simpler; single-gpu or DataParallel training is not supported.
+This implementation only supports multi-gpu, DistributedDataParallel training, which is faster and simpler; single-gpu or DataParallel training is not supported.
 
 To perform unsupervised training of a ResNet-50 model on ImageNet using a 4-gpu or 8-gpu machine, run: 
 <pre>python main_pcl.py \ 
