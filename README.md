@@ -26,9 +26,9 @@ To perform unsupervised training of a ResNet-50 model on ImageNet using a 4-gpu 
   --lr 0.03 \
   --batch-size 256 \
   --temperature 0.2 \
-  --mlp --aug-plus \	
+  --mlp --aug-plus --cos (only activated for PCL v2) \	
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
-  --exp-dir PCL_v2
+  --exp-dir PCL
   [Imagenet dataset folder]
 </pre>
 
@@ -55,7 +55,7 @@ To train a logistic regression classifier on ImageNet, using frozen representati
   -a resnet50 \ 
   --lr 5 \
   --batch-size 256 \
-  --id PCL_v2_linear \ 
+  --id ImageNet_linear \ 
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
   [Imagenet dataset folder]
 </pre>
