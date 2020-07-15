@@ -64,5 +64,5 @@ To train a logistic regression classifier on ImageNet, using frozen representati
 Linear classification result on ImageNet, using ResNet-50 pretrained with PCL for 200 epochs:
 PCL v1 | PCL v2
 ------ | ------
-61.5 | 67.6
+  61.5 |  67.6
 
