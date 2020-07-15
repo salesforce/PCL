@@ -28,7 +28,7 @@ To perform unsupervised training of a ResNet-50 model on ImageNet using a 4-gpu 
   --temperature 0.2 \
   --mlp --aug-plus --cos (only activated for PCL v2) \	
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
-  --exp-dir PCL
+  --exp-dir experiment_pcl
   [Imagenet dataset folder]
 </pre>
 
