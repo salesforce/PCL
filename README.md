@@ -44,6 +44,7 @@ Linear SVM classification result on VOC, using ResNet-50 pretrained with PCL for
 
 Model| k=1 | k=2 | k=4 | k=8 | k=16| Full
  --- | --- | --- | --- | --- | --- | ---
+PCL v1| 46.9| 56.4| 62.8| 70.2| 74.3 | 82.3
 PCL v2| 47.9| 59.6| 66.2| 74.5| 78.3 | 85.4
 
 k is the number of training samples per class.
@@ -59,4 +60,9 @@ To train a logistic regression classifier on ImageNet, using frozen representati
   --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
   [Imagenet dataset folder]
 </pre>
+
+Linear classification result on ImageNet, using ResNet-50 pretrained with PCL for 200 epochs:
+PCL v1 | PCL v2
+------ | ------
+61.5 | 67.6
 
