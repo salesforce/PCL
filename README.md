@@ -1,7 +1,7 @@
 ## Prototypical Contrastive Learning of Unsupervised Representations (Salesforce Research)
 <img src="./img/PCL_framework.png" width="600">
 
-This is a PyTorch implementation of the PCL paper:
+This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2005.04966">PCL paper</a>:
 <pre>
 @article{PCL,
 	title={Prototypical Contrastive Learning of Unsupervised Representations},
