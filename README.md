@@ -32,6 +32,10 @@ To perform unsupervised training of a ResNet-50 model on ImageNet using a 4-gpu 
   [Imagenet dataset folder]
 </pre>
 
+### Download Pretrained Models
+<a href="https://storage.googleapis.com/sfr-pcl-data-research/PCL_checkpoint/PCL_v1_epoch200.pth.tar">PCL v1</a>| <a href="https://storage.googleapis.com/sfr-pcl-data-research/PCL_checkpoint/PCL_v2_epoch200.pth.tar">PCL v2</a>
+------ | ------
+
 ### Linear SVM Evaluation on VOC
 To train a linear SVM classifier on VOC dataset, using frozen representations from a pre-trained model, run:
 <pre>python eval_svm_voc.py --pretrained [your pretrained model] \
