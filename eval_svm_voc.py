@@ -28,8 +28,8 @@ def parse_option():
     
     parser.add_argument('data', metavar='DIR',
                         help='path to dataset')
-    parser.add_argument('--batch_size', type=int, default=128, help='batch size')
-    parser.add_argument('--num_workers', type=int, default=8, help='num of workers to use')
+    parser.add_argument('--batch-size', type=int, default=128, help='batch size')
+    parser.add_argument('--num-workers', type=int, default=8, help='num of workers to use')
     parser.add_argument('--cost', type=str, default='0.1,0.5,1')
     parser.add_argument('--seed', default=0, type=int)
     
@@ -42,7 +42,7 @@ def parse_option():
     parser.add_argument('--pretrained', default='', type=str,
                         help='path to pretrained checkpoint')
     # dataset
-    parser.add_argument('--low_shot', default=False, action='store_true', help='whether to perform low-shot training.')    
+    parser.add_argument('--low-shot', default=False, action='store_true', help='whether to perform low-shot training.')    
     
     opt = parser.parse_args()
 
