@@ -30,7 +30,7 @@ def parse_option():
                         help='path to dataset')
     parser.add_argument('--batch-size', type=int, default=128, help='batch size')
     parser.add_argument('--num-workers', type=int, default=8, help='num of workers to use')
-    parser.add_argument('--cost', type=str, default='0.1,0.5,1')
+    parser.add_argument('--cost', type=str, default='0.5')
     parser.add_argument('--seed', default=0, type=int)
     
     # model definition
