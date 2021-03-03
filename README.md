@@ -1,13 +1,13 @@
 ## Prototypical Contrastive Learning of Unsupervised Representations (Salesforce Research)
 <img src="./img/PCL_framework.png" width="600">
 
-This is a PyTorch implementation of the <a href="https://arxiv.org/abs/2005.04966">PCL paper</a>:
+This is a PyTorch implementation of the <a href="https://openreview.net/forum?id=KmykpuSrjcq">PCL paper</a>:
 <pre>
 @article{PCL,
 	title={Prototypical Contrastive Learning of Unsupervised Representations},
 	author={Junnan Li and Pan Zhou and Caiming Xiong and Richard Socher and Steven C.H. Hoi},
-	journal={arXiv preprint arXiv:2005.04966},
-	year={2020}
+	journal={ICLR},
+	year={2022}
 }</pre>
 
 ### Requirements:
