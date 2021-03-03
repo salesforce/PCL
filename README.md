@@ -5,9 +5,9 @@ This is a PyTorch implementation of the <a href="https://openreview.net/forum?id
 <pre>
 @article{PCL,
 	title={Prototypical Contrastive Learning of Unsupervised Representations},
-	author={Junnan Li and Pan Zhou and Caiming Xiong and Richard Socher and Steven C.H. Hoi},
+	author={Junnan Li and Pan Zhou and Caiming Xiong and Steven C.H. Hoi},
 	journal={ICLR},
-	year={2022}
+	year={2021}
 }</pre>
 
 ### Requirements:
