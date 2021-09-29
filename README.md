@@ -3,10 +3,10 @@
 
 This is a PyTorch implementation of the <a href="https://openreview.net/forum?id=KmykpuSrjcq">PCL paper</a>:
 <pre>
-@article{PCL,
+@inproceedings{PCL,
 	title={Prototypical Contrastive Learning of Unsupervised Representations},
 	author={Junnan Li and Pan Zhou and Caiming Xiong and Steven C.H. Hoi},
-	journal={ICLR},
+	booktitle={ICLR},
 	year={2021}
 }</pre>
 
