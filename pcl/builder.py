@@ -175,7 +175,7 @@ class MoCo(nn.Module):
                 pos_prototypes = prototypes[pos_proto_id]    
                 
                 # sample negative prototypes
-                all_proto_id = [i for i in range(im2cluster.max())]       
+                all_proto_id = [i for i in range(im2cluster.max()+1)]       
                 neg_proto_id = set(all_proto_id)-set(pos_proto_id.tolist())
                 neg_proto_id = sample(neg_proto_id,self.r) #sample r negative prototypes 
                 neg_prototypes = prototypes[neg_proto_id]    
